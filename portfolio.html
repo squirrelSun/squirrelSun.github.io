@@ -1,0 +1,391 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="ace ace-card-on ace-tab-nav-on ace-main-nav-on ace-sidebar-on" data-theme-color="#c0e3e7">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SquirrelSun</title>
+    <meta name="description" content="">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Google Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+    <!-- Icon Fonts -->
+    <link href="fonts/icomoon/style.css" rel="stylesheet">
+
+    <!-- Styles -->
+    <link href="js/plugins/highlight/solarized-light.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Modernizer -->
+    <script type="text/javascript" src="js/vendor/modernizr-3.3.1.min.js"></script>
+</head>
+
+<body>
+<div class="ace-wrapper">
+    <!-- 头部 -->
+    <header id="ace-header" class="ace-container-shift ace-logo-in ace-head-boxed ace-nav-right">
+        <div class="ace-head-inner">
+            <div class="ace-head-container ace-container">
+                <div class="ace-head-row">
+
+                    <div id="ace-head-col2" class="ace-head-col text-right">
+                        <div class="ace-nav-container ace-container hidden-sm hidden-xs">
+                            <nav id="ace-main-nav">
+                                <ul class="clear-list">
+                                    <li><a href="index.html">个人信息</a></li>
+                                    <li><a href="portfolio.html">作品展示</a>
+                                    <li><a href="testimonials.html">好友评价</a></li>
+                                    <li><a href="search.html">查询</a></li>
+                                    <li><a href="contact.html">联系本人</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 左侧飘窗 -->
+    <article id="ace-card" class="ace-card bg-primary">
+        <div class="ace-card-inner text-center">
+            <img class="avatar avatar-195" src="img/uploads/avatar/sun.jpg" width="195" height="195" alt="">
+            <h1>孙文渊</h1>
+            <p class="text-muted">大三本科在读</p>
+        </div>
+
+        <footer class="ace-card-footer">
+            <a class="btn btn-lg btn-block btn-thin btn-upper " href="file\resume.pdf">下载简历</a>
+        </footer>
+    </article>
+
+    <!-- 整体布局 -->
+    <div id="ace-content" class="ace-container-shift">
+        <div class="ace-container">
+
+            <div class="ace-paper-stock">
+                <main class="ace-paper clearfix">
+                    <div class="ace-paper-cont clear-mrg">
+
+                        <!-- 标题 -->
+                        <div class="padd-box">
+                            <h1 class="title-lg text-upper">作品展示</h1>
+                        </div>
+
+                        <!-- 内容 -->
+                        <div class="pf-wrap">
+                            <!-- 头部 -->
+                            <div class="pf-filter padd-box">
+                                <button data-filter="*">所有</button>
+                                <button data-filter=".photography">项目</button>
+                                <button data-filter=".design">练习</button>
+                            </div>
+                            <!-- 作品 -->
+                            <div class="pf-grid">
+                                <div class="pf-grid-sizer"></div>
+
+                                <!-- 项目一 -->
+                                <div class="pf-grid-item photography">
+                                    <div class="project">
+                                        <!-- 照片 -->
+                                        <figure class="portfolio-figure">
+                                            <img src="img/uploads/portfolio/bookstore.png" alt="">
+                                        </figure>
+                                        <!-- 概述 -->
+                                        <div class="portfolio-caption text-center">
+                                            <div class="valign-table">
+                                                <div class="valign-cell">
+                                                    <h2 class="text-upper">线上书城</h2>
+                                                    <p>
+                                                        使用MVC架构，实现Web页面与数据库的交互
+                                                    </p>
+                                                    <a href="#pf-popup-1" class="pf-btn-view btn btn-primary">
+                                                        查看详情
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="pf-popup-1" class="pf-popup clearfix">
+                                        <div class="pf-popup-col1">
+                                            <img src="img/uploads/portfolio/MVC.png" alt="">
+                                        </div>
+
+                                        <div class="pf-popup-col2">
+                                            <div class="pf-popup-info clear-mrg">
+                                                <h2 class="text-upper">线上书城</h2>
+                                                <dl class="dl-horizontal">
+                                                    <dt>数据库</dt>
+                                                    <dd>MySQL</dd>
+                                                    <dt>数据源</dt>
+                                                    <dd>Druid</dd>
+                                                    <dt>JDBC工具</dt>
+                                                    <dd>DBUtils</dd>
+                                                    <dt>Ajax</dt>
+                                                    <dd>jQuery + JavaScript + JSON</dd>
+                                                    <dt>层解耦方案</dt>
+                                                    <dd>工厂设计模式</dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 练习一 力扣-->
+                                <div class="pf-grid-item design">
+                                    <div class="project">
+                                        <!-- 照片 -->
+                                        <figure class="portfolio-figure">
+                                            <img src="img/uploads/portfolio/leetcoke.jpg" alt="">
+                                        </figure>
+                                        <!-- 概述 -->
+                                        <div class="portfolio-caption text-center">
+                                            <div class="valign-table">
+                                                <div class="valign-cell">
+                                                    <h2 class="text-upper">leetcode</h2>
+                                                    <p>
+                                                        算法练习与逻辑能力锻炼
+                                                    </p>
+                                                    <a href="#pf-popup-2" class="pf-btn-view btn btn-primary">
+                                                        查看详情
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="pf-popup-2" class="pf-popup clearfix">
+                                        <div class="pf-popup-col1 ">
+                                            <img src="img/uploads/portfolio/lc.png" alt="">
+                                        </div>
+
+                                        <div class="pf-popup-col2">
+                                            <div class="pf-popup-info clear-mrg">
+                                                <h2 class="text-upper">leetcode</h2>
+                                                <p class="text-muted"><strong>算法练习</strong></p>
+                                                <dl class="dl-horizontal">
+                                                    <dt>日期</dt>
+                                                    <dd>2020.02.15</dd>
+
+                                                    <dt>个人主页</dt>
+                                                    <dd><a href="https://leetcode-cn.com/u/squirrelsun/">
+                                                        https://leetcode-cn.com/u/squirrelsun/
+                                                    </a></dd>
+                                                </dl>
+                                                <p>
+                                                    每天均在该网站进行算法的练习，以加深对数据结构的理解。目前对于数组、字符串、哈希表、双指针熟练程度较高。
+                                                    积极参加该网站组织的周赛与夜猫赛，单次参赛最好成绩为642/4819
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 项目二 github-->
+                                <div class="pf-grid-item photography">
+                                    <div class="project">
+                                        <!-- 照片 -->
+                                        <figure class="portfolio-figure">
+                                            <img src="img/uploads/portfolio/github.jpg" alt="">
+                                        </figure>
+                                        <!-- 概述 -->
+                                        <div class="portfolio-caption text-center">
+                                            <div class="valign-table">
+                                                <div class="valign-cell">
+                                                    <h2 class="text-upper">github</h2>
+                                                    <p>
+                                                        上传当日练习代码模块，参加开源项目
+                                                    </p>
+                                                    <a href="#pf-popup-3" class="pf-btn-view btn btn-primary">
+                                                        查看详情
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="pf-popup-3" class="pf-popup clearfix">
+                                        <div class="pf-popup-col1">
+                                                <img src="img/uploads/portfolio/github.jpg" alt="">
+                                        </div>
+
+                                        <div class="pf-popup-col2">
+                                            <div class="pf-popup-info clear-mrg">
+                                                <h2 class="text-upper">github</h2>
+                                                <p class="text-muted"><strong>个人仓库</strong></p>
+                                                <dl class="dl-horizontal">
+                                                    <dt>日期</dt>
+                                                    <dd>2019.05.16</dd>
+
+                                                    <dt>个人主页</dt>
+                                                    <dd><a href="https://github.com/squirrelSun">
+                                                        https://github.com/squirrelSun
+                                                    </a></dd>
+                                                </dl>
+                                                <p>
+                                                    每日上传当日练习所完成的代码，同时也经常在该网站搜寻高⭐项目进行学习。
+                                                    参与wuhan2020开源项目的开发，在前端交互组内进行网页设计与部分CSS的开发，
+                                                    因贡献在所有开发人员中排名中等，未进行网页公示
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 练习二 数学建模-->
+                                <div class="pf-grid-item design">
+                                    <div class="project">
+                                        <!-- 照片 -->
+                                        <figure class="portfolio-figure">
+                                            <img src="img/uploads/portfolio/math.jpg" alt="">
+                                        </figure>
+                                        <!-- 概述 -->
+                                        <div class="portfolio-caption text-center">
+                                            <div class="valign-table">
+                                                <div class="valign-cell">
+                                                    <h2 class="text-upper">数学建模</h2>
+                                                    <p>
+                                                        带领组内组员，先后参加2019年全国大学生“高教社”杯数学建模大赛、
+                                                        2020年美国大学生数学建模比赛，获得相应奖项
+                                                    </p>
+                                                    <a href="#pf-popup-4" class="pf-btn-view btn btn-primary">
+                                                        查看详情
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="pf-popup-4" class="pf-popup clearfix">
+                                        <div class="pf-popup-col1">
+                                            <img src="img/uploads/portfolio/jisuan.png" alt="">
+                                        </div>
+
+                                        <div class="pf-popup-col2">
+                                            <div class="pf-popup-info clear-mrg">
+                                                <h2 class="text-upper">数学建模比赛</h2>
+                                                <dl class="dl-horizontal">
+                                                    <dt>日期</dt>
+                                                    <dd>2019.09  /  2020.02</dd>
+
+                                                    <dt>“高教社”杯</dt>
+                                                    <dd>陕西赛区二等奖</dd>
+
+                                                    <dt>美国数模</dt>
+                                                    <dd>暂未公布比赛成绩</dd>
+                                                </dl>
+                                                <p>
+                                                    与外系同级两名本校生组成参赛队伍，并担任组长，先后共同参加了“高教社”杯、美国数学建模比赛。
+                                                    队伍选取A题(高压油管内的动态压力控制)，在查找相关资料后，合作完成数学模型的建立。
+                                                    本人运用spss对数据进行筛选及初步分析，然后使用Matlab根据所建立的数学模型完成对油管内部压力变化的动态模拟的仿真计算答案，
+                                                    最终获得陕西赛区二等奖。
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 项目三 环境预测-->
+                                <div class="pf-grid-item photography">
+                                    <div class="project">
+                                        <!-- 照片 -->
+                                        <figure class="portfolio-figure">
+                                            <img src="img/uploads/portfolio/yuce.jpg" alt="">
+                                        </figure>
+                                        <!-- 概述 -->
+                                        <div class="portfolio-caption text-center">
+                                            <div class="valign-table">
+                                                <div class="valign-cell">
+                                                    <h2 class="text-upper">关中平原地区污染物浓度变化与分析（以西安市为例）</h2>
+                                                    <p>通过BP神经网络，以2013-2019年数据为训练源，进行机器学习，预测未来三年内各污染物浓度变化，以提供对应的治理建议</p>
+                                                    <a href="#pf-popup-5" class="pf-btn-view btn btn-primary">了解详情</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="pf-popup-5" class="pf-popup clearfix">
+                                        <div class="pf-popup-col1">
+                                            <img src="img/uploads/portfolio/yc.jpg" alt="aaa">
+                                        </div>
+
+                                        <div class="pf-popup-col2">
+                                            <div class="pf-popup-info clear-mrg">
+                                                <h2 class="text-upper">环境污染物预测与治理</h2>
+                                                <dl class="dl-horizontal">
+                                                    <dt>时间</dt>
+                                                    <dd>2019.11</dd>
+
+                                                    <dt>导师</dt>
+                                                    <dd>杨勇</dd>
+
+                                                    <dt>职责</dt>
+                                                    <dd>数据分析、神经网络模型搭建</dd>
+                                                </dl>
+                                                <p>
+                                                    通过小波分析去除噪点，运用拉格朗日插值对2013.01-2019.06西安市内13个污染监测基站的每日数据进行插值模拟
+                                                    还原二维平面内的连续时间各污染物浓度变化的具体情况，将导出数据的70%运用Matlab进行BP神经网络
+                                                    的机器学习（中间层为12），最终在30%数据测试拟合度为0.9483的情况下对未来3年内西安市各污染物浓度变化进行预测。
+                                                    在论文中为第五作者，目前论文投至环境科学类相关期刊，暂未发表。
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </main>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <footer id="ace-footer" class="ace-container-shift">
+        <div class="ace-container">
+            <div class="ace-footer-cont clear-mrg">
+                <p class="text-center">squirrelSun &copy; SUST.Mathematics.Information and Computing Science</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 背景色 -->
+    <svg id="ace-bg-shape-1" class="hidden-sm hidden-xs" height="519" width="758">
+        <polygon points="0,455,693,352,173,0,92,0,0,71"
+                 style="fill:#d2d2d2;stroke:purple;stroke-width:0; opacity: 0.5"/>
+    </svg>
+    <!-- 背景色 -->
+    <svg id="ace-bg-shape-2" class="hidden-sm hidden-xs" height="536" width="633">
+        <polygon points="0,0,633,0,633,536" style="fill:#c0e3e7;stroke:purple;stroke-width:0"/>
+    </svg>
+</div>
+
+<!-- Scripts -->
+<script type="text/javascript" src="js/vendor/jquery-1.12.4.min.js"></script>
+
+<script type="text/javascript" src="js/plugins/highlight/highlight.pack.js"></script>
+<script type="text/javascript" src="js/plugins/jquery.mCustomScrollbar.min.js"></script>
+<script type="text/javascript" src="js/plugins/isotope.pkgd.min.js"></script>
+<script type="text/javascript" src="js/plugins/progressbar.min.js"></script>
+<script type="text/javascript" src="js/plugins/slick.min.js"></script>
+
+<script type="text/javascript" src="js/options.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
+
